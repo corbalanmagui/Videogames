@@ -1,0 +1,31 @@
+.card {
+  margin: 10px;
+  border-radius: 15px;
+  width: 300px;
+  text-align: center; 
+  background: #808080; 
+  position: relative; 
+  left: 1%; 
+  right: 1%; 
+}
+
+.card:hover{
+  transform: scale(1.1);
+}
+
+.card-header{
+  width: 100%;
+  height: fit-content;
+  text-align: center; 
+  color: #fff59d;
+}
+
+.img{
+  width: 250px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+.genre, .rating{
+  margin-top: -15px;
+}

@@ -1,0 +1,35 @@
+.bgr{
+  background-color: #6d6d6d;
+  /* height: 100vh; */
+  background-size: cover;
+}
+
+.containerGeneros, .containerPlataformas{ 
+  border:2px solid #ccc; 
+  width:300px; 
+  height: 100px; 
+  overflow-y: scroll; 
+  background-color: #ffffff;
+}
+
+.titulo-form{
+  display: flex;
+  justify-content: center;
+  margin-top: -1px;
+  font-size: 35px;
+}
+
+.formulario-tot{
+  display: flex;
+  margin-top: -10px;
+  justify-content: center;
+  background-color: #b388ff;
+  margin: 0% 38%;
+  border-radius: 20px;
+  padding: 1%;
+  width: fit-content;
+}
+
+#name, #description, #release, #rating{
+  width: 100%;
+}

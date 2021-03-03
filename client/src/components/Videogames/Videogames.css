@@ -1,0 +1,111 @@
+.backg{
+  width: 100%;
+  /* height: 100%; */
+  overflow: auto;
+  height: calc(100vh - 105px); 
+  display: flex;
+  flex-direction: column;
+  background-color: #6d6d6d;
+}
+
+.cards_juegos{
+  display: flex;
+  align-items: center;
+
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  margin-top: -1px;
+  font-size: 35px;
+}
+
+.loading{
+  max-height: 150px;
+}
+
+.form-buscador{
+  display: flex;
+  justify-content: center;
+  margin-top: -15px;
+  border-radius: 5px;
+  padding: 5px;
+  width: 33%;
+}
+
+.form-filtrado{
+  display: flex;
+  margin-top: -15px;
+  border-radius: 5px;
+  padding: 5px;
+  width: 33%;
+}
+
+#game{
+  border-radius: 5px;
+  padding: 5px;
+  border: inherit;
+}
+
+button{
+  margin-left: 5px;
+  border: hidden;
+  border-radius: 5px;
+}
+
+button:hover{
+  background-color: #632ea7;
+  color: #ffe35d
+}
+
+
+.lista-games{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: inherit;
+}
+
+.containerForms{
+  width: 100%;
+  display: flex;
+}
+
+.containerBtnOrder{
+  width: 33%;
+}
+
+.btnOrder{
+  margin-left: 50%;
+}
+
+.value{
+  border-radius: 5px;
+  padding: 5px;
+  border: inherit;
+}
+
+.added, .existing{
+  margin-top: 6px;
+}
+
+.paginador{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.displayPlaginador{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+#anterior{
+  margin-right: 5px;
+}
+
+#siguiente{
+  display: flex;
+}

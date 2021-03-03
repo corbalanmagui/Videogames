@@ -1,0 +1,59 @@
+#navbar {
+  height: 105px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #303030;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.navbar-brand{
+  color: #bb7fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+
+.navbar-brand:hover{
+  color: #fff176;
+}
+
+a:link, a:visited, a:active {
+  text-decoration: none;
+}
+
+.logoVideoGames {
+  margin-left: -10px;
+  margin-right: 20px;
+}
+
+.link-Home {
+  color: #b388ff;
+  font-size: 25px;
+  display: flex;
+  margin-right: -35%;
+}
+
+.link-Form{
+  color: #b388ff;
+  font-size: 25px;
+  display: flex;
+  margin-right: 1%;
+}
+
+.link-Home:hover {
+  font-size: 28px;
+  transition: 0.5s;
+  color: #fff176;
+}
+
+.link-Form:hover {
+  font-size: 28px;
+  transition: 0.5s;
+  color: #fff176;
+}
